@@ -1,0 +1,18 @@
+{
+
+        "User_data" : {
+                "Name" : "",
+                "Age" : "",
+                "Occupation" : "",
+                "Day_of_the_Week" : "",
+                "Number_of_Courses" : 0,
+                "Average_Credits_Per_Course" : 0,
+                "Unavailable_Time" : {
+                        "Amount_of_Sleep" : 0,
+                        "Time_Spent_on_Hobbies" : 0,
+                        "Time_Spent_on_Work" : 0,
+                        "Time_Spent_on_Homework" : 0,
+                        "Time_Spent_on_Meals" : 0
+                }
+        }
+}
