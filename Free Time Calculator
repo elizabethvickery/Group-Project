@@ -16,3 +16,26 @@
                 }
         }
 }
+
+def getNumericInput(displayString):
+        while(True):
+                user_data = input(displayString)
+                if(user_data.isnumeric()):
+                        user_data = int(user_data)
+                        return user_data
+                else:
+                        print("Please insert a number.")
+
+
+        User_data["Name"] = input("Please insert your name."]
+        User_data["Age"] = getNumericInput("Please insert your age.")
+        User_data["Occupation"] = input("Do you have a job? Please insert yes or no.")
+        User_data["Day_of_the_Week"] = input("Please insert the day of the week.")
+        User_data["Number_of_Courses"] = getNumericInput("How many courses are you taking?")
+        User_data["Average_Credits_Per_Course"] = getNumericInput("What is the average number of credits per course that you are currently taking?")
+        Unavailable_Time["Amount_of_Sleep"] = getNumericInput("How many hours a night do you usually sleep?")
+        Unavailable_Time["Time_Spent_on_Hobbies"] = getNumericInput("How many hours a day do you usually spend on your hobbies?")
+        Unavailable_Time["Time_Spent_on_Work"] = getNumericInput("How many hours a day do you work?")
+        Unavailable_Time["Time_Spent_on_Homework"] = getNumericInput("How much time do you usually spend on doing homework daily?")
+        Unavailable_Time["Tine_Spent_on_Meals"] = getNumericInput("How much time do you tend to spend on meals (breakfast, dinner, etc.)?")
+
