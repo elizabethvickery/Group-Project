@@ -1,0 +1,14 @@
+git add .   (adds all files or without . mention the name)
+git commit -m "any comment will do,"
+git push
+
+
+
+
+for updating and syncing with git hub
+git pull
+
+
+not working 
+git pull
+
